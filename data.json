@@ -1,0 +1,1 @@
+{"data": [{"Pregnancies": 5, "Glucose": 155, "BloodPressure": 90, "SkinThickness": 35, "Insulin": 135, "BMI": 36.6, "DiabetesPedigreeFunction": 0.7, "Age": 55}, {"Pregnancies": 3, "Glucose": 145, "BloodPressure": 95, "SkinThickness": 32, "Insulin": 155, "BMI": 34.3, "DiabetesPedigreeFunction": 0.625, "Age": 65}]}
