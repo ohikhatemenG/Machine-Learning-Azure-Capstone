@@ -32,7 +32,8 @@ Early termination policy I have choosen is Bandit policy as it terminates the mo
 We need to pass the hyperparameter using an entry script in my case its train.py file having all the preprocessing steps and Hyperparameters using arg.parser method to be passed to Hyper Drive.
 Once I pass the Hyper parameters using train.py and submit the Job Hyper Drive will create number of jobs based on the parameters given in Hyperdrive configuration using the combinations of Hyper parameters . After running all the 20 models we find the best model and register it in the portal.
 See the Hyper Drives running as below.
-
+<img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/hyperdrive%20a.png'>
+This is the Rundetails widget and showing the progress of the training runs of the different experiments
 
 
 
