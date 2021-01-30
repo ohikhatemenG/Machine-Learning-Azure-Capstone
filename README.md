@@ -77,6 +77,7 @@ From the above I tested two data points and I gone two outcome as expected
 In the same way we can test the endpoint on multiple Data points using sample data from the given dataset.
 I convert the swagger dataframe into json and pass the json to service endpoint.
 <img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/Automl(request2).png'>
+<img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/Automl(output).png'>
 This shows the endpoint is functioning successfully.
 # Screecast Record
 https://youtu.be/Lt1yAkETgo8
