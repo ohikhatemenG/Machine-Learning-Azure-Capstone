@@ -42,6 +42,18 @@ The best model with it's run id
 The different hyperparameters
 # Automl ML
 Hyper Drive run needs lot of preprocessing method for the successful building of a model. Azure has AUTOML capalbilities with less preprocessing techniques reuqired . Here we are going to build a automl model for our problem. The Dataste is registered and converted to Tabular Dataset using Tabular dataset Factory module.
+<img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/Automl(config).png'>
+The AutomL config can be as seen above
+The probelm is classification I choose task as classification.
+TimeOut is set to 25 minutes sicne the dataset is only 800 rows approximately.
+Primary metric is accuracy as we are trying to maximise the accuracy.
+label column is the column we are trying to predict here outcome .
+Compute target is the cpu-cluster where the computation needs to be done
+N_cross_Validations=5 the number of k fold cross validations, since the dataset is small choosen 5
+Iterations: Number of iterations to be run 20 , so this checks 20 automl models Max_concurernt_iterations: 5 number of parallel runs at a time, choosing this too high impact performance so choosen 5
+Once I write the config file and submit the experiment it starts building models whcih can be seen below.
+
+
 
 
 
