@@ -58,6 +58,7 @@ The Rundetails widget and it's progress of the training runs of the different ex
 The best model with it's run id
 # compare the model performance
 The Runs AutomL gave voting ensemble model as best model with accuracy of 78.39 better than Hyperdrive model which is 74.46.VotingEnsemble model works on taking the majority voting of underlying models and choose the model with highest votes as best model.Hyperdrive model consume more to time to build than Automl model. Hyperdrive model is an indirect process, while Automl model is a direct process of building up a model
+<img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/model-1.png'>
 # Save and Registered the Best Model
 Once I derived the best model, I have to save and registered the best model
 <img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/Automl(sava%20%26%20Reg).png'>
