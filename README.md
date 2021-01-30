@@ -25,6 +25,8 @@ The data has lot of outliers, some have irrelavant values. All the preprocessing
 # Registered the Dataset on Azure
 Since this is an external dataset I need to register the dataset by going to create a new dataset in Azure Machine learning studio, also I can do this by using python sdk
 I have tested both ways. Once Dataset is registered I need to convert the dataset to Tabular dataset using Tabular Dataset factory module of Azure Machine learning.
+# Compute Cluster
+To run the Jobs I need a cpu cluster to be created before starting the process whcih can be found in both the notebooks .
 # Hyperparameter Tuning using HyperDrive
 As mentioned above the model I am using is Logistic regression, I have choosen Inverse Regularisation factor (--C) which penalises the model to prevent over fitting and maximum number of iteration(--Max_iter) as other Hyperparameter to be tuned.
 The Sample method I have choosen is Random parameter sampling to tune the Hyper parameters to save the computational cost and time of completion.
@@ -36,6 +38,9 @@ See the Hyper Drives running as below.
 This is the Rundetails widget and showing the progress of the training runs of the different experiments
 <img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/hyperdrive%20b.png'>
 The best model with it's run id
+<img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/hyperdrive%20c.png'>
+The different hyperparameters
+# Automl ML
 
 
 
