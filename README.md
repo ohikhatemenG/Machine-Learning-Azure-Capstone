@@ -53,9 +53,11 @@ N_cross_Validations=5 the number of k fold cross validations, since the dataset 
 Iterations: Number of iterations to be run 20 , so this checks 20 automl models Max_concurernt_iterations: 5 number of parallel runs at a time, choosing this too high impact performance so choosen 5
 Once I write the config file and submit the experiment it starts building models whcih can be seen below.
 <img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/Automl(Rundetails).png'>
-The Rundetails widget
-
-
+The Rundetails widget and it's progress of the training runs of the different experiment
+<img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/Automl(bestrun).png'>
+The best model with it's run id
+# compare the model performance
+The Runs AutomL gave voting ensemble model as best model with accuracy of 78.39 better than Hyperdrive model which is 74.46.VotingEnsemble model works on taking the majority voting of underlying models and choose the model with highest votes as best model.Hyperdrive model consume more to time to build than Automl model. Hyperdrive model is an indirect process, while Automl model is a direct process of building up a model
 
 
 
