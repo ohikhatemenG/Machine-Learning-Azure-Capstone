@@ -88,3 +88,8 @@ https://youtu.be/Lt1yAkETgo8
 # Future Improvement
 The model can be converted to ONNX format and deploy on Edge devices.
 Applciation insights can be enabled.
+Addition of more data will definitly improve the accuracy by eliminating statistical bias
+Preventing target leakage
+using fewer features
+
+
