@@ -34,6 +34,8 @@ Once I pass the Hyper parameters using train.py and submit the Job Hyper Drive w
 See the Hyper Drives running as below.
 <img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/hyperdrive%20a.png'>
 This is the Rundetails widget and showing the progress of the training runs of the different experiments
+<img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/hyperdrive%20b.png'>
+The best model with it's run id
 
 
 
