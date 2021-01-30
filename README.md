@@ -70,7 +70,12 @@ Once the end point is deployed and showing healthy its ready to cosnume
 <img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/Automl(endpoint).png'>
 <img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/Automl(endpo).png'>
 The endpoint and showing healthy for consume
-
+The Endpoint is consumed using endpoint.py where we use requests library for cosnuming the endpoint.
+The sample input to the endpoint is as below
+<img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/Automl(request).png'>
+From the above I tested two data points and I gone two outcome as expected
+In the same way we can test the endpoint on multiple Data points using sample data from the given dataset.
+I convert the swagger dataframe into json and pass the json to service endpoint.
 
 
 
