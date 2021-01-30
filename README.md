@@ -41,6 +41,8 @@ The best model with it's run id
 <img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/hyperdrive%20c.png'>
 The different hyperparameters
 # Automl ML
+Hyper Drive run needs lot of preprocessing method for the successful building of a model. Azure has AUTOML capalbilities with less preprocessing techniques reuqired . Here we are going to build a automl model for our problem. The Dataste is registered and converted to Tabular Dataset using Tabular dataset Factory module.
+
 
 
 
