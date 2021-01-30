@@ -58,8 +58,15 @@ The Rundetails widget and it's progress of the training runs of the different ex
 The best model with it's run id
 # compare the model performance
 The Runs AutomL gave voting ensemble model as best model with accuracy of 78.39 better than Hyperdrive model which is 74.46.VotingEnsemble model works on taking the majority voting of underlying models and choose the model with highest votes as best model.Hyperdrive model consume more to time to build than Automl model. Hyperdrive model is an indirect process, while Automl model is a direct process of building up a model
-
-
+# Save and Registered the Best Model
+Once I derived the best model, I have to save and registered the best model
+<img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/Automl(sava%20%26%20Reg).png'>
+Save and Registered the Best Model
+# Deployment
+Both models cna be deploy, but I choose to deployed automl model because of is better accuarcy compared to HyperDrive Model.
+Before Deploying the model, i need to pack all the dependencies into conda environment file whcih are included in the repository. Once I pack the dependencies a docker conatiner is built and pushed to Azure Container isntance.I need to consume the ACI instance using a rest Endpoint. The endpoint deployed will be seen in endpoints section of the Azure Machine learning studio. Before deploying an endpoint we need to define scoring script which defines the entrypoint to the deployment whcih is given in repository.
+We need to define inference config and endpoint config which are in jupyter Notebook of Automl.
+Once the end point is deployed and shwoing healthy its ready to cosnume
 
 
 
