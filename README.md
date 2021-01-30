@@ -66,8 +66,12 @@ Save and Registered the Best Model
 Both models cna be deploy, but I choose to deployed automl model because of is better accuarcy compared to HyperDrive Model.
 Before Deploying the model, i need to pack all the dependencies into conda environment file whcih are included in the repository. Once I pack the dependencies a docker conatiner is built and pushed to Azure Container isntance.I need to consume the ACI instance using a rest Endpoint. The endpoint deployed will be seen in endpoints section of the Azure Machine learning studio. Before deploying an endpoint we need to define scoring script which defines the entrypoint to the deployment whcih is given in repository.
 We need to define inference config and endpoint config which are in jupyter Notebook of Automl.
-Once the end point is deployed and shwoing healthy its ready to cosnume
+Once the end point is deployed and showing healthy its ready to cosnume
 <img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/Automl(endpoint).png'>
+<img src='https://github.com/ohikhatemenG/Machine-Learning-Azure-Capstone/blob/main/Automl(endpo).png'>
+The endpoint and showing healthy for consume
+
+
 
 
 
